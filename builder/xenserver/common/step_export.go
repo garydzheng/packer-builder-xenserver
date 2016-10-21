@@ -122,6 +122,7 @@ func (StepExport) Run(state multistep.StateBag) multistep.StepAction {
 				}
 			}
 		}
+		fallthrough
 	case "xva":
 		// export the VM
 
